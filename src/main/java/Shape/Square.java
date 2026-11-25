@@ -31,5 +31,12 @@ public class Square extends Shape {
         //Turtle starts here
         getTurtle().penDown();
 
+        //for loop to draw square
+
+        for (int i = 0; i < 4; i++) {
+            getTurtle().forward(getSideLength());
+            getTurtle().turnRight(90);
+        }
+
     }
 }
