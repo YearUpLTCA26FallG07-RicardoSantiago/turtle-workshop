@@ -1,4 +1,4 @@
-package Shapes;
+package Shape;
 
 public class Hexagon {
 }
