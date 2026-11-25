@@ -6,6 +6,7 @@ import java.awt.*;
 
 public abstract class Shape {
 
+    //importing the turtle paint
     private Turtle turtle;
     private Point location;
     private Color color;
@@ -33,6 +34,6 @@ public abstract class Shape {
     public int getBorder() {
         return border;
     }
-
+    //Parent method to pass to child classes to draw
     public abstract void paint();
 }
